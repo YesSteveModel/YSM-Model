@@ -1,0 +1,73 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "神秘兜帽男",
+    "tips": "神秘兜帽男",
+    "license": {
+     "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      }     
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "#舞蹈": "舞蹈",
+      "ani1": "朝下指",
+      "ani2": "武器附魔",
+      "ani3": "元素瓶"
+    },
+    "extra_animation_classify": [
+      {
+				"id": "舞蹈",
+				"extra_animation": {
+					"#return": "返回按钮",
+					"extra1": "打招呼",
+					"extra2": "鼓掌",
+					"extra3": "认可",
+					"extra4": "反对",
+					"extra5": "胜利",
+					"extra6": "摇啊摇",
+          "extra7": "跺脚曳步",
+					"extra0": "诹访大舞"       }
+			}
+    ],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        "textures/tex.png"
+      ],
+      "sound_path": "sounds"
+    }
+  }
+}
